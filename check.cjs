@@ -20,7 +20,7 @@ const { chromium } = require('playwright');
     }
     
     // Target the new James Bond Mode toggle to verify interaction
-    await page.click('button:has-text("J-BOND MODE")').catch(e => console.log('Could not click Security Toggle:', e.message));
+    await page.click('button:has-text("J-BOND")').catch(e => console.log('Could not click Security Toggle:', e.message));
     await page.waitForTimeout(1000);
     
     const statusAfter = await page.$$('.text-accent-pink.uppercase');

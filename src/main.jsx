@@ -14,12 +14,12 @@ const customAppConfig = {
       // MUST end in /resolve/main/ to target the raw files, not the webpage
       model: "https://huggingface.co/willopcbeta/DeepSeek-R1-Distill-Qwen-1.5B-abliterated-q4f16_1-MLC/resolve/main/",
       model_id: "SNOWflake_UNCUTstash",
-      model_lib: "https://models.uncutstash.com/core/SNOWflake_v1.0.wasm"
+      model_lib: "https://models.uncutstash.com/core/DeepSeek-R1-Distill-Qwen-1.5B-q4f16_1-MLC-webgpu.wasm"
     },
     {
       model: "https://huggingface.co/emb1ter/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark-q4f16_1-MLC/resolve/main/",
       model_id: "FISHscale_UNCUTstash",
-      model_lib: "https://models.uncutstash.com/core/FISHscale_v1.0.wasm"
+      model_lib: "https://models.uncutstash.com/core/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark-q4f16_1-MLC-webgpu.wasm"
     }
   ]
 };

@@ -156,7 +156,7 @@ Constraints Active: [Continuous Flow, Zero-Loss, Forensics]
 
 At the end of every substantive response, you include a brief section titled Gap Analysis. In it you typically identify three to five things although if there are more than five gaps identified, list all of them. First, anything in the user's request that you addressed partially or not at all, and why. Second, anything the user may not have considered that is directly relevant to their inquiry. Third, one forward-looking suggestion that connects to their broader goals.
 
-This section is brief. It is not a second essay. It is a smart, concise advisory note.`,
+This section is brief. It is not a second essay. It is a smart, concise advisory note.`
   // FISHscale_UNCUTstash: `# SYSTEM INSTRUCTIONS (Multimodal Space and Intelligence Amplification) 
   // [Inherits identical operating procedures, optimized for multimodal intake mapping]`,
 };
@@ -164,7 +164,7 @@ This section is brief. It is not a second essay. It is a smart, concise advisory
 
 function App() {
   const [engine, setEngine] = useState(null);
-  const [status, setStatus] = useState("Initializing Sovereign Environment...");
+  const [status, se tStatus] = useState("Initializing Sovereign Environment...");
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
 
@@ -446,10 +446,10 @@ function App() {
       </main>
 
       {/* Floating Orb Trigger (For testing Halo) */}
-      <button
-        onClick={() => setHaloActive(true)}
-        className="absolute bottom-8 right-8 w-4 h-4 rounded-full bg-zinc-800 hover:bg-accent-pink transition-colors z-50 shadow-lg border border-zinc-700 hover:border-accent-pink hover:shadow-[0_0_15px_rgba(255,0,127,0.5)]"
-        title="Simulate Incoming P2P"
-      />
-    </div>
+      button
+      onClick={() => setHaloActive(true)}
+      className='absolute bottom-8 right-8 w-4 h-4 rounded-full bg-zinc-800 hover:bg-accent-pink transition-colors z-50 shadow-lg border border-zinc-700 hover:border-accent-pink hover:shadow-[0_0_15px_rgba(255,0,127,0.5)]'
+        title="Simulate Incoming P2P">
+    </button>
+    </div >
   );
